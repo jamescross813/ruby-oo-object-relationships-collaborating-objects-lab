@@ -1,0 +1,15 @@
+
+[1mFrom:[0m /home/jamescross/Development/code/Phase1/Lab/OOPRelationships/ruby-oo-object-relationships-collaborating-objects-lab/lib/artist.rb @ line 26 Artist.find_or_create_by_name:
+
+    [1;34m25[0m: [32mdef[0m [1;36mself[0m.[1;34mfind_or_create_by_name[0m(name)
+ => [1;34m26[0m:     binding.pry
+    [1;34m27[0m:     [1;36mself[0m.new(name)
+    [1;34m28[0m:     [1;34m# if self.all.find{|artist| artist.name == name} [0m
+    [1;34m29[0m:     [1;34m#     self.all.find{|artist| artist.name == name}[0m
+    [1;34m30[0m:     [1;34m#   else [0m
+    [1;34m31[0m:     [1;34m#     artist = self.new[0m
+    [1;34m32[0m:     [1;34m#     artist.name = name[0m
+    [1;34m33[0m:     [1;34m#     artist [0m
+    [1;34m34[0m:      [1;34m#end[0m
+    [1;34m35[0m: [32mend[0m
+
